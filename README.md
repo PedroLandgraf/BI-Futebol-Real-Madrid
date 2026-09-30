@@ -27,7 +27,7 @@
 
 ### 05 — Squad Intelligence — Player Detail
 
-![Squad Player Detail](screenshots/06-squad-player-detail.png)
+![Squad Player Detail](screenshots/05-squad-player-detail.png)
 
 ### 06 — Interactive Daily Sales Tooltip
 
