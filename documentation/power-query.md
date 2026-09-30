@@ -1,28 +1,17 @@
-# Power Query Documentation
+# Power Query
 
-Power Query / M is used as the data preparation layer of the project.
+Power Query was used to prepare and structure the source data before loading it into the Power BI analytical model.
 
-## Main Responsibilities
+## Main Transformation Tasks
 
-- Data ingestion
-- Data cleaning
+The transformation layer supports:
+
 - Data type standardization
-- Data transformation
-- Data preparation for the analytical model
+- Column transformation
+- Data cleaning
+- Table preparation
+- Attribute normalization
+- Relationship-ready structures
+- Preparation of analytical dimensions and facts
 
-## General Data Flow
-
-```text
-Source Data
-    ↓
-Power Query
-    ↓
-Data Cleaning
-    ↓
-Data Transformation
-    ↓
-Analytical Model
-    ↓
-DAX
-    ↓
-Power BI Report
+The objective was to keep data preparation separate from analytical calculations whenever possible, allowing DAX to focus on business logic and analytical measures.
