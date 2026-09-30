@@ -1,9 +1,7 @@
 # Power BI Report
 
-This folder contains the Power BI template used in this portfolio project.
+The Power BI report template is provided in `.pbit` format for portfolio and technical demonstration purposes.
 
-## Main file
+The template contains the report structure, data model, relationships, calculations, visualizations and Power BI development logic.
 
-`DASHBOARD_FUTEBOL_PORTIFOLIO.pbit`
-
-The `.pbit` file contains the report structure, data model, queries, measures, relationships and visual configuration, but does not distribute the original report data.
+The original source datasets are not publicly distributed.
