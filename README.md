@@ -13,6 +13,16 @@
 
 ---
 
+## 🔎 Quick Access
+
+| Resource | Description |
+|---|---|
+| 📊 [Power BI Template](report/DASHBOARD_FUTEBOL_PORTIFOLIO.pbit) | Download the `.pbit` report template |
+| 📸 [Dashboard Screenshots](screenshots/) | Explore the main dashboard views |
+| 🧠 [Technical Documentation](documentation/) | Data model, DAX and Power Query documentation |
+
+---
+
 # 🇺🇸 English
 
 ## Overview
