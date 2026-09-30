@@ -195,15 +195,11 @@ The result combines traditional Power BI visuals with custom visual components b
 ```text
 football-business-intelligence-powerbi/
 │
-├── report/
-│   └── DASHBOARD_FUTEBOL_PORTIFOLIO.pbit
+├── .gitignore
+├── README.md
 │
-├── screenshots/
-│   ├── 01-matchday.png
-│   ├── 02-membership.png
-│   ├── 03-squad-overview.png
-│   ├── 04-squad-player-detail.png
-│   └── 05-daily-sales-tooltip.png
+├── data/
+│   └── README.md
 │
 ├── documentation/
 │   ├── README.md
@@ -211,7 +207,14 @@ football-business-intelligence-powerbi/
 │   ├── dax.md
 │   └── power-query.md
 │
-├── data/
-│   └── README.md
+├── report/
+│   └── DASHBOARD_FUTEBOL_PORTFOLIO.pbit
 │
-└── README.md
+└── screenshots/
+    ├── 01-matchday.png
+    ├── 02-matchday-selected.png
+    ├── 03-membership.png
+    ├── 04-squad-overview.png
+    ├── 05-squad-player-detail.png
+    ├── 06-daily-sales-tooltip.png
+    └── README.md
