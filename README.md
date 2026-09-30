@@ -31,7 +31,7 @@
 
 ### 06 — Interactive Daily Sales Tooltip
 
-![Daily Sales Tooltip](screenshots/05-daily-sales-tooltip.png)
+![Daily Sales Tooltip](screenshots/06-daily-sales-tooltip.png)
 ---
 
 ## Project Overview
