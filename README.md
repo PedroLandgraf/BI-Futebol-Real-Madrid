@@ -1,202 +1,278 @@
-# Football Business Intelligence — Power BI
+# Football Business Intelligence | Power BI
 
-> A Power BI portfolio project focused on football business intelligence, combining matchday analytics, ticket sales, membership management and squad intelligence.
+![Power BI](https://img.shields.io/badge/Power%20BI-Business%20Intelligence-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-Analytics-1F6FEB?style=for-the-badge)
+![Power Query](https://img.shields.io/badge/Power%20Query-Data%20Transformation-107C10?style=for-the-badge)
+![Portfolio](https://img.shields.io/badge/Project-Portfolio-111827?style=for-the-badge)
 
-🇺🇸 **English:** Full project documentation is provided in English.  
-🇧🇷 **Português:** O dashboard foi desenvolvido em português, enquanto a documentação técnica está disponível em inglês.
+> A Business Intelligence solution designed to transform football operational data into an interactive analytical environment using Microsoft Power BI.
+
+> Uma solução de Business Intelligence desenvolvida para transformar dados operacionais do futebol em um ambiente analítico interativo utilizando Microsoft Power BI.
 
 ---
 
-## Dashboard Preview
+# 🇺🇸 English
 
-### 01 — Matchday Analytics
+## Overview
+
+This project is a Football Business Intelligence solution developed in Microsoft Power BI.
+
+The objective was to transform operational and performance data into an analytical environment capable of supporting decision-making across different areas of a football organization.
+
+The solution combines data modeling, DAX, Power Query, interactive visualizations, dynamic HTML components and custom SVG-based graphics.
+
+The project was designed as a portfolio case to demonstrate both technical Power BI capabilities and the application of Business Intelligence concepts to a real-world football context.
+
+---
+
+## Business Context
+
+Football organizations generate large volumes of data across multiple areas, including:
+
+- Matches
+- Ticket sales
+- Stadium occupancy
+- Revenue
+- Memberships
+- Players
+- Squad composition
+- Player characteristics
+- Market value
+- Performance attributes
+
+The challenge was to organize these different data domains into an analytical structure that allows users to investigate performance through interactive dashboards rather than isolated spreadsheets or static reports.
+
+---
+
+## Project Objectives
+
+The main objectives of the solution were:
+
+- Consolidate football-related information into a structured BI environment
+- Create an analytical data model suitable for Power BI
+- Develop reusable DAX measures
+- Analyze match and ticket performance
+- Monitor stadium occupancy
+- Analyze membership performance
+- Analyze the active squad
+- Create dynamic player profiles
+- Provide interactive visual exploration
+- Develop custom visual components using HTML and SVG
+- Transform raw data into actionable business information
+
+---
+
+# Dashboard Preview
+
+## 01 — Matchday Analytics
 
 ![Matchday Analytics](screenshots/01-matchday.png)
 
-### 02 — Matchday — Selected Game
+The Matchday page provides an overview of match-related information and stadium performance.
+
+---
+
+## 02 — Matchday — Selected Game
 
 ![Selected Matchday](screenshots/02-matchday-selected.png)
 
-### 03 — Membership Analytics
+When a match is selected, the dashboard dynamically updates its contextual information, including team logos and match-specific data.
+
+The stadium visualization also works as a data-driven heatmap, allowing sector-level performance and occupancy to be visually explored.
+
+---
+
+## 03 — Membership Analytics
 
 ![Membership Analytics](screenshots/03-membership.png)
 
-### 04 — Squad Intelligence — Overview
+The membership analysis provides visibility into membership performance, revenue and related indicators.
+
+---
+
+## 04 — Squad Intelligence — Overview
 
 ![Squad Intelligence Overview](screenshots/04-squad-overview.png)
 
-### 05 — Squad Intelligence — Player Detail
+The Squad Intelligence page provides an overview of the active squad, including:
 
-![Squad Player Detail](screenshots/06-daily-sales-tooltip.png)
-
-### 06 — Interactive Daily Sales Tooltip
-
-![Daily Sales Tooltip](screenshots/05-squad-player-detail.png)
----
-
-## Project Overview
-
-This project explores how football club data can be transformed into a Business Intelligence environment designed to support operational and commercial analysis.
-
-The solution combines matchday operations, ticket sales, membership analytics and squad intelligence into an integrated Power BI environment.
-
-The project was developed as a portfolio case to demonstrate analytical thinking, data modeling, DAX development, Power Query transformations and advanced Power BI visualization techniques.
-
----
-
-## Business Areas
-
-### Matchday Analytics
-
-The matchday section focuses on:
-
-- Stadium occupancy
-- Ticket sales
-- Revenue by sales channel
-- Revenue evolution
-- Match-level performance
-- Sector-level analysis
-
-### Membership Analytics
-
-The membership section provides analysis of:
-
-- Membership base evolution
-- Membership plans
-- Membership revenue
-- Cancellations
-- Delinquency
-- Plan composition
-
-### Squad Intelligence
-
-The squad section explores:
-
-- Squad composition
-- Player positions
+- Player distribution by position
+- Age groups
 - Nationalities
-- Player profiles
-- Player market value
-- Dynamic player visualization
-- Interactive player detail views
-
-### Daily Sales Analysis
-
-An interactive tooltip provides contextual daily sales information directly from the main analytical views.
-
-This approach allows additional information to be explored without requiring an additional dashboard page.
+- Dominant foot
+- Market value
+- Player-level information
 
 ---
 
-## Technical Architecture
+## 05 — Squad Intelligence — Player Detail
 
-The solution was developed using:
+![Squad Player Detail](screenshots/05-squad-player-detail.png)
 
-- Power BI
-- DAX
-- Power Query / M
-- Data modeling
-- HTML / CSS
-- Custom visual components
-- Interactive tooltips
+The player detail experience provides a contextual profile for the selected player, including:
 
----
-
-## Data Model
-
-The model combines fact and dimension tables to support different analytical domains.
-
-The main analytical structures include:
-
-- Matches
-- Stadium sectors
-- Ticket sales
-- Daily sales
-- Membership
-- Membership plans
-- Players
-- Player images
-- Teams
-- Calendar
-
-The model was designed to support reusable calculations and interactive filtering across different analytical areas.
+- Player image
+- Shirt number
+- Position
+- Nationality
+- Age
+- Height
+- Dominant foot
+- Market value
+- Performance attributes
+- Dynamic visual analysis
 
 ---
 
-## Advanced Power BI Features
+## 06 — Interactive Daily Sales Tooltip
 
-The project includes several advanced visualization and modeling techniques:
+![Daily Sales Tooltip](screenshots/06-daily-sales-tooltip.png)
 
-- Dynamic DAX measures
-- Context-aware calculations
-- Custom HTML visualizations
-- Dynamic player cards
-- Interactive player detail views
-- Team logos
-- Player images
-- Nationality flags
-- Dynamic proportional bars
-- Interactive tooltips
-- Stadium visualization
-- Custom SVG elements
+An interactive tooltip designed to provide additional sales information without requiring a separate analytical page.
 
 ---
 
-## DAX
+# Key Features
 
-DAX was used to create analytical measures covering areas such as:
+## Matchday Intelligence
 
+- Match-level analysis
+- Ticket sales analysis
 - Stadium occupancy
-- Ticket revenue
-- Average ticket value
-- Revenue variation
-- Membership evolution
-- Player statistics
-- Market value analysis
-- ABC classification
+- Revenue analysis
+- Revenue by stadium sector
+- Dynamic team logos based on match selection
+- Data-driven stadium heatmap visualization
+- Interactive filtering
 
-The objective was not only to display metrics, but to create measures capable of responding dynamically to the analytical context selected by the user.
+## Membership Intelligence
 
----
+- Membership revenue analysis
+- Membership plan analysis
+- Cancellation analysis
+- Membership performance monitoring
 
-## Power Query
+## Squad Intelligence
 
-Power Query / M was used for:
-
-- Data ingestion
-- Data cleaning
-- Data transformation
-- Data standardization
-- Data preparation
-- Structuring analytical tables
-
-The transformation layer prepares the source data before it reaches the analytical model.
-
----
+- Active squad analysis
+- Player profile analysis
+- Position distribution
+- Age distribution
+- Nationality analysis
+- Dominant foot analysis
+- Player market value
+- Player performance attributes
 
 ## Interactive Experience
 
-One of the project's objectives was to combine analytical functionality with a more engaging user experience.
+The report incorporates several interactive and custom-built components, including:
 
-Custom HTML components were used to create elements such as:
-
-- Player profile cards
-- Dynamic bars
-- Team logos
-- Nationality flags
-- Custom visual layouts
-
-The result combines traditional Power BI visuals with custom visual components built specifically for the project.
+- Cross-filtering
+- Dynamic player profiles
+- Dynamic team logos
+- Dynamic nationality visualization
+- Dynamic HTML components
+- SVG-based visualizations
+- Interactive tooltips
+- Context-aware KPIs
+- Data-driven stadium visualization
 
 ---
 
-## Repository Structure
+# Technical Architecture
+
+The solution was developed using a structured Power BI analytical approach, separating data preparation, data modeling and analytical calculations.
+
+### Data Preparation
+
+Power Query was used to prepare and transform source data before loading it into the analytical model.
+
+Main activities include:
+
+- Data cleaning
+- Data type standardization
+- Attribute normalization
+- Table preparation
+- Analytical dimension preparation
+- Fact table preparation
+
+### Data Modeling
+
+The model was structured around dimensions and fact tables to support:
+
+- Match-level analysis
+- Player-level analysis
+- Sector-level analysis
+- Membership analysis
+- Time-based analysis
+- Cross-filtering
+- Reusable calculations
+
+### Analytical Layer
+
+DAX measures were developed to support the analytical logic of the report, including:
+
+- Ticket sales
+- Stadium occupancy
+- Revenue
+- Average ticket price
+- Player counts
+- Position analysis
+- Age analysis
+- Nationality analysis
+- Market value
+- Player attributes
+- Dynamic visual components
+
+---
+
+# Technology Stack
+
+| Technology | Application |
+|---|---|
+| Microsoft Power BI | Data modeling, visualization and reporting |
+| DAX | Analytical calculations and KPIs |
+| Power Query / M | Data transformation and preparation |
+| HTML | Custom visual components |
+| SVG | Custom graphical visualizations |
+| Excel | Source data preparation |
+
+---
+
+# Advanced Power BI Features
+
+The project demonstrates several Power BI development techniques beyond standard visual configuration.
+
+### Dynamic Visual Logic
+
+DAX measures are used to control visual behavior according to the current filter context.
+
+Examples include:
+
+- Dynamic player profiles
+- Dynamic team logos
+- Dynamic nationality analysis
+- Dynamic player attributes
+- Context-aware KPIs
+
+### Custom HTML Components
+
+HTML-based components were developed to create customized analytical interfaces that go beyond the standard Power BI visual library.
+
+### SVG Visualizations
+
+SVG was used to create custom graphical elements and data-driven visual components.
+
+### Stadium Heatmap
+
+The stadium visualization was designed as a data-driven representation of sector performance, allowing the user to visually identify differences between stadium sectors.
+
+---
+
+# Repository Structure
 
 ```text
 football-business-intelligence-powerbi/
-│
-├── .gitignore
-├── README.md
 │
 ├── data/
 │   └── README.md
@@ -208,13 +284,17 @@ football-business-intelligence-powerbi/
 │   └── power-query.md
 │
 ├── report/
-│   └── DASHBOARD_FUTEBOL_PORTFOLIO.pbit
+│   ├── README.md
+│   └── Real_Madrid_Business_Intelligence.pbit
 │
-└── screenshots/
-    ├── 01-matchday.png
-    ├── 02-matchday-selected.png
-    ├── 03-membership.png
-    ├── 04-squad-overview.png
-    ├── 05-squad-player-detail.png
-    ├── 06-daily-sales-tooltip.png
-    └── README.md
+├── screenshots/
+│   ├── 01-matchday.png
+│   ├── 02-matchday-selected.png
+│   ├── 03-membership.png
+│   ├── 04-squad-overview.png
+│   ├── 05-squad-player-detail.png
+│   ├── 06-daily-sales-tooltip.png
+│   └── README.md
+│
+├── .gitignore
+└── README.md
