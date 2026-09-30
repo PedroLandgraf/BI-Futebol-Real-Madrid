@@ -1,47 +1,41 @@
 # Data Model
 
-## Overview
+The Power BI solution uses a structured analytical data model designed to separate dimensions from transactional and analytical facts.
 
-The Power BI model was structured around multiple analytical domains, including matchday operations, ticket sales, membership management and squad intelligence.
+## Main Components
 
-## Main Analytical Domains
+### Dimensions
 
-### Matchday
+Examples include:
 
-Includes data related to:
+- Date
+- Match
+- Sector
+- Player
+- Player Photo
+- Team
+- Time-related dimensions
 
-- Matches
-- Stadium sectors
+### Fact Tables
+
+The model includes fact structures supporting:
+
+- Match attendance
 - Ticket sales
-- Occupancy
 - Revenue
-
-### Membership
-
-Includes:
-
-- Members
-- Membership plans
-- Monthly payments
-- Revenue
-- Cancellations
-- Delinquency
-
-### Squad
-
-Includes:
-
-- Players
-- Positions
-- Nationalities
-- Player images
-- Teams
-- Market value
-
-### Calendar
-
-A dedicated calendar structure supports time-based analysis and period comparisons.
+- Player information
+- Membership information
 
 ## Modeling Approach
 
-The model uses fact and dimension structures to organize analytical data and support reusable DAX calculations.
+The model was structured to support:
+
+- Reusable DAX measures
+- Cross-filtering
+- Time intelligence
+- Player-level analysis
+- Match-level analysis
+- Sector-level analysis
+- Dynamic visual interactions
+
+The model separates descriptive attributes from analytical transactions to improve maintainability and reporting flexibility.
