@@ -13,22 +13,25 @@
 
 ![Matchday Analytics](screenshots/01-matchday.png)
 
-### 02 — Membership Analytics
+### 02 — Matchday — Selected Game
 
-![Membership Analytics](screenshots/02-membership.png)
+![Selected Matchday](screenshots/02-matchday-selected.png)
 
-### 03 — Squad Intelligence — Overview
+### 03 — Membership Analytics
 
-![Squad Intelligence Overview](screenshots/03-squad-overview.png)
+![Membership Analytics](screenshots/03-membership.png)
 
-### 04 — Squad Intelligence — Player Detail
+### 04 — Squad Intelligence — Overview
 
-![Squad Player Detail](screenshots/04-squad-player-detail.png)
+![Squad Intelligence Overview](screenshots/04-squad-overview.png)
 
-### 05 — Interactive Daily Sales Tooltip
+### 05 — Squad Intelligence — Player Detail
 
-![Daily Sales Tooltip](screenshots/05-daily-sales-tooltip.png)
+![Squad Player Detail](screenshots/05-squad-player-detail.png)
 
+### 06 — Interactive Daily Sales Tooltip
+
+![Daily Sales Tooltip](screenshots/06-daily-sales-tooltip.png)
 ---
 
 ## Project Overview
