@@ -351,7 +351,11 @@ Custom tooltip experiences were developed to provide additional analytical conte
 # Repository Structure
 
 ```text
-football-business-intelligence-powerbi/
+BI-Futebol-Real-Madrid/
+│
+├── .gitignore
+│
+├── README.md
 │
 ├── data/
 │   └── README.md
@@ -366,14 +370,11 @@ football-business-intelligence-powerbi/
 │   ├── README.md
 │   └── DASHBOARD_FUTEBOL_PORTIFOLIO.pbit
 │
-├── screenshots/
-│   ├── 01-matchday.png
-│   ├── 02-matchday-selected.png
-│   ├── 03-membership.png
-│   ├── 04-squad-overview.png
-│   ├── 05-squad-player-detail.png
-│   ├── 06-daily-sales-tooltip.png
-│   └── README.md
-│
-├── .gitignore
-└── README.md
+└── screenshots/
+    ├── 01-matchday.png
+    ├── 02-matchday-selected.png
+    ├── 03-membership.png
+    ├── 04-squad-overview.png
+    ├── 05-squad-player-detail.png
+    ├── 06-daily-sales-tooltip.png
+    └── README.md
