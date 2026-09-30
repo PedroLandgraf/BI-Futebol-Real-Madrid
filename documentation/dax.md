@@ -1,29 +1,42 @@
-# DAX Documentation
+# DAX Development
 
-DAX is used throughout the project to create analytical measures and context-aware calculations.
+The project uses DAX measures to create dynamic analytical calculations and KPIs.
 
-## Main Calculation Areas
+## Main DAX Applications
 
-### Stadium Occupancy
+### Attendance
 
-Measures calculate occupancy based on available stadium capacity and ticket quantities.
+Measures were developed to calculate:
 
-### Ticket Revenue
+- Tickets sold
+- Occupancy rate
+- Average occupancy
+- Attendance by match
+- Attendance by sector
 
-Revenue calculations combine the different ticket sales channels available in the model.
+### Revenue
 
-### Membership
+Revenue calculations include:
 
-Measures support analysis of membership base, revenue, cancellations and delinquency.
+- Online ticket revenue
+- Box office revenue
+- Total match revenue
+- Average ticket price
 
-### Squad
+### Squad Analytics
 
-Player-related calculations support squad composition and player analysis.
+DAX calculations support:
+
+- Total players
+- Players by position
+- Age groups
+- Nationality
+- Dominant foot
+- Market value
+- Player attributes
 
 ### Dynamic Visualizations
 
-Several DAX measures are also used to generate dynamic HTML content and visual components.
+DAX is also used to generate dynamic content consumed by custom HTML and SVG-based visualizations.
 
-## Design Principle
-
-The measures were designed to respond to the analytical context selected by the user whenever appropriate, allowing the dashboard to behave dynamically across different views.
+These calculations allow visual elements to respond to the current filter context and selected entities.
