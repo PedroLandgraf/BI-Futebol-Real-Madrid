@@ -25,13 +25,13 @@
 
 ![Squad Intelligence Overview](screenshots/04-squad-overview.png)
 
-### 05 — Squad Intelligence — Player Detail
+### 05 — Interactive Daily Sales Tooltip
 
-![Squad Player Detail](screenshots/05-squad-player-detail.png)
+![Daily Sales Tooltip](screenshots/05-daily-sales-tooltip.png)
 
-### 06 — Interactive Daily Sales Tooltip
+### 06 — Squad Intelligence — Player Detail
 
-![Daily Sales Tooltip](screenshots/06-daily-sales-tooltip.png)
+![Squad Player Detail](screenshots/06-squad-player-detail.png)
 ---
 
 ## Project Overview
