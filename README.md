@@ -159,6 +159,21 @@ The tooltip allows additional context to be presented directly within the analyt
 - Data-driven stadium heatmap visualization
 - Interactive filtering
 
+## What Makes This Project Different
+
+This project goes beyond standard Power BI visual configuration by combining native Power BI capabilities with custom HTML and SVG development.
+
+The solution demonstrates how DAX can be used not only for analytical calculations, but also as part of the logic behind dynamic visual components.
+
+Examples include:
+
+- Dynamic player profile cards
+- Dynamic team logos
+- Data-driven stadium heatmap
+- Dynamic nationality visualization
+- Context-aware player analytics
+- Interactive tooltips
+
 ## Membership Intelligence
 
 - Membership revenue analysis
