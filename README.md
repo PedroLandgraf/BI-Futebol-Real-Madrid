@@ -120,7 +120,7 @@ The Squad Intelligence page provides an overview of the active squad, including:
 
 ## 05 — Squad Intelligence — Player Detail
 
-![Squad Player Detail](screenshots/05-squad-player-detail.png)
+![Squad Player Detail](screenshots/06-daily-sales-tooltip.png)
 
 The player detail experience provides a contextual profile for the selected player, including:
 
@@ -139,12 +139,11 @@ The player detail experience provides a contextual profile for the selected play
 
 ## 06 — Interactive Daily Sales Tooltip
 
-![Daily Sales Tooltip](screenshots/06-daily-sales-tooltip.png)
+![Daily Sales Tooltip](screenshots/05-squad-player-detail.png)
 
 An interactive tooltip designed to provide additional daily sales information without requiring a separate analytical page.
 
 The tooltip allows additional context to be presented directly within the analytical workflow.
-
 ---
 
 # Key Features
