@@ -1,7 +1,7 @@
 # Data
 
-The original source dataset is not currently distributed with this repository.
+The original source datasets are not included in this repository.
 
-The Power BI template is provided separately for portfolio and technical demonstration purposes.
+The project was adapted for portfolio purposes and the publicly available repository contains the Power BI template and documentation, but not the original source files.
 
-Any future dataset included in this repository will be sanitized and reviewed before publication.
+This approach prevents the publication of potentially confidential or commercially sensitive information while preserving the technical demonstration of the solution.
